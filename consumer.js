@@ -16,3 +16,4 @@ consumer = new Consumer(client, [{ topic: TOPIC, partitions: 3 }], {
 consumer.on("message", (message) => {
     console.log(message);
 });
+// hey this is my message
